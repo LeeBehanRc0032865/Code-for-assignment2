@@ -78,7 +78,7 @@ namespace Code_for_assignment2
 
             Rt = 1.0 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3 + 1.0 / R4 + 1.0 / R5);
 
-            label6.Text = "Total parallel = " + Rt;
+            label6.Text = "Total parallel = " + Rt; 
         }
     }
 }
