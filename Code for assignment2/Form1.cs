@@ -19,6 +19,7 @@ namespace Code_for_assignment2
 
         private void button1_Click(object sender, EventArgs e)
         {
+        // calculates the total resistance in series
             double R1, R2, R3, R4, R5;
             try
             {
@@ -65,6 +66,7 @@ namespace Code_for_assignment2
 
             label7.Text = "Total series = " + Rt;
 
+// calculates the total resistance in parallel
             if (R1 == 0)
                 R1 = double.PositiveInfinity;
             if (R2 == 0)
